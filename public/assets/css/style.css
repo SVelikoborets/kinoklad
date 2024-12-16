@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: #673ff6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000; /* Цвет при наведении */
+    text-decoration: none;
+}
+
+.main-section {
+    background-image: linear-gradient(to left, rgba(245, 237, 225, 0.65), #4f24ea);
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.main-text {
+    color:#fff;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to left, #f1ac45, #4f24ea);
+    color: white;
+    border: none;
+}
+
+.btn-orange {
+    background-color: #f1ac45;
+    color: white;
+    border: none;
+}
+
+.btn-movie {
+    background-color: #f1ac45;
+    color: white;
+    border: none;
+}
+
+.select-wrap {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: -10%;
+    right: -10px;
+    transform: translateY(-30%);
+    background-color: #4E23EAD1;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 50%; /* кружок */
+}
+
+.close-icon {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.film-icon, .kinopoisk-logo, .globe-icon, .calendar-icon, .star-icon, .link-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.film-icon {
+    background-image: url('../../assets/images/film-icon.png');
+    width: 16px;
+    height: 16px;
+}
+
+.toolbox-icon {
+    background-image: url('../../assets/images/toolbox-icon.png');
+}
+
+.lent-icon {
+    background-image: url('../../assets/images/lent-icon.png');
+}
+
+.globe-icon {
+    background-image: url('../../assets/images/globe-icon.png');
+}
+
+.calendar-icon {
+    background-image: url('../../assets/images/calendar-icon.png');
+}
+
+.link-icon {
+    background-image: url('../../assets/images/free-icon-link.png');
+    max-width: 20px;
+}
+.star-icon {
+    background-image: url('../../assets/images/star-icon.png');
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.kinopoisk-logo {
+    background-image: url('../../assets/images/kinopoisk-logo.png');
+}
+
+.clad {
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.poster {
+    min-height: 380px;
+    /*min-width:250px ;*/
+    object-fit: cover;
+}
+
+.ratings {
+    bottom: 10px;
+    right: 10px;
+}
+
+.rating {
+    font-weight: bold;
+    background-color: rgba(78, 35, 234, 0.82);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.rating-orange {
+    font-weight: bold;
+    background-color: rgba(241, 172, 69, 0.89);
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.custom-select option {
+    background-color: white; /* Цвет фона для опций */
+    color: black; /* Цвет текста для опций */
+}
+
+/* Изменение цвета опций при наведении (может не работать во всех браузерах) */
+.custom-select option:hover {
+    background-color: #4f24ea; /* Цвет фона опции при наведении */
+    color: white; /* Цвет текста опции при наведении */
+}
+
+.pagination .page-link {
+    color: #4220c4; /* Цвет текста ссылок пагинации */
+}
+
+.pagination .page-link:hover {
+    color: #6f50e1; /* Цвет текста ссылок пагинации при наведении */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #7958f1; /* Цвет фона активной ссылки */
+    color: white; /* Цвет текста активной ссылки */
+}
+
+footer {
+    background: linear-gradient(to left, #4618ee,#f1ac45);
+    color:#fff;
+}
+
+@media (max-width: 1200px) {
+    .poster {
+        min-height: 335px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        background-image: linear-gradient(to top, rgba(245, 237, 225, 0.65), #4f24ea);
+        padding: 10px 0;
+        justify-content: center;
+    }
+    footer {
+        background: linear-gradient(to top, #4618ee,#f1ac45);
+        color:#fff;
+    }
+    .poster {
+        min-height: 355px;
+        /*min-width:250px ;*/
+        object-fit: cover;
+    }
+}
+
