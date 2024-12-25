@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand d-flex align-items-center" href="{{ route('movies.index') }}">
             <div class="film-icon mr-2"></div>
             <span>КиноКлад</span>

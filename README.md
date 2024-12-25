@@ -1,64 +1,42 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## KinoKlad
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Описание проекта
+Этот проект представляет собой веб-сайт, посвященный фильмам жанра "Семейное". Фильмы добавляются на сайт автоматически с помощью парсера, который получает данные через неофициальный API Кинопоиска (Kinopoisk API Unofficial). Проект разработан с использованием фреймворка Laravel.
 
-## About Laravel
+## Пример сайта
+Вы можете ознакомиться с примером сайта по следующему адресу: https://kinoklad.velikoborets-portfolio.ru/
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+На этом сайте представлены фильмы жанра "Семейное", каждый из которых имеет подробное описание, постер, рейтинги и другую полезную информацию. Пользователи могут просматривать фильмы, фильтровать их по различным параметрам и получать актуальные данные благодаря автоматической загрузке фильмов.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Функциональность
+- **Получение массива json через Kinopoisk API Unofficial**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Разбор полученных данных и сохранение их в таблицы базы данных**
+- **Отображение описаний фильмов на сайте**
 
-## Learning Laravel
+## Используемые технологии
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Фреймворк Laravel**
+- **Kinopoisk API Unofficial для получения данных о фильмах**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Демонстрация
+Сайт доступен по адресу: https://kinoklad.velikoborets-portfolio.ru/
 
-## Laravel Sponsors
+## Установка и запуск проекта
+Клонировать репозиторий проекта
+Установить зависимости с помощью Composer
+Настроить подключение к базе данных
+Запустить команду для загрузки фильмов
+Для загрузки фильмов на сайт используется команда "php artisan movies:fetch", которая запускает парсер и сохраняет данные в базу данных.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Лицензия
 
-### Premium Partners
+Этот проект распространяется под лицензией MIT.  Смотрите файл [LICENSE](LICENSE) для получения подробной информации.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contributing
+## Вклад
+Приветствуются любые вклады в проект, включая исправление ошибок, добавление новых функций и улучшение документации.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Контакты
+Если у вас есть вопросы или предложения по проекту, вы можете связаться со мной в telegram -  [Укажите контактную информацию, если она есть]
